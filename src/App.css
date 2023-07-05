@@ -12,6 +12,15 @@
     min-height: 100vh;
 }
 
+.app__wrapper_column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
 .section__padding {
     padding: 3rem 10rem;
   }
@@ -24,7 +33,7 @@
     text-transform: capitalize;
     font-feature-settings: 'tnum' on, 'lnum' on;
     line-height: 29.9px;
-    font-size: 23px;
+    font-size: 40px;
   }
   
   .p__opensans {
@@ -32,9 +41,8 @@
     color: var(--color-white);
     font-weight: 400;
     letter-spacing: 0.04em;
-    text-transform: capitalize;
-    line-height: 28px;
-    font-size: 16px;
+    line-height: 40px;
+    font-size: 30px;
   }
 
 a {
@@ -85,6 +93,14 @@ a {
   .section__padding {
     padding: 4rem;
   }
+  .p__cormorant {
+    font-size: 35px;
+  }
+
+  .p__opensans {
+    font-size: 25px;
+  }
+
 }
 
 @media screen and (max-width: 650px) {
@@ -93,11 +109,11 @@ a {
   }
   
   .p__cormorant {
-    font-size: 21px;
+    font-size: 27px;
   }
 
   .p__opensans {
-    font-size: 14px;
+    font-size: 23px;
   }
 
   .app__wrapper {
@@ -107,11 +123,11 @@ a {
 
 @media screen and (max-width: 450px) {
   .p__opensans {
-    font-size: 12px;
+    font-size: 20px;
   }
 
   .p__cormorant {
-    font-size: 19px;
+    font-size: 22px;
   }
 
   .headtext__cormorant {

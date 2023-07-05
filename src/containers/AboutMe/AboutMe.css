@@ -2,27 +2,10 @@
     background-color: var(--color-black);
 }
 
-.app__aboutus p{
-    font-family: var(--font-alt);
-    color: var(--color-white);
-    font-size: 30px;
+.app__aboutus-p-tittle{
+    margin-bottom: 100px;
 }
 
-.p__cormorant-header {
-    font-family: var(--font-alt);
-    color: var(--color-white);
-    font-weight: 700;
-    letter-spacing: 0.04em;
-    text-transform: capitalize;
-    font-feature-settings: 'tnum' on, 'lnum' on;
-    line-height: 50px;
-    font-size: 40px;
-    padding-bottom: 51px; 
-  }
-  
-.my-image__img{
-    border-radius:20%;
-}
 
 @media screen and (min-width: 2000px) {
     .app__header h1 {
