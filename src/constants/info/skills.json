@@ -1,0 +1,28 @@
+{
+    "practices":[
+        {"name": "TDD"},
+        {"name":"Testing"},
+        {"name":"Clean Code"},
+        {"name":"Refactoring"},
+        {"name":"POO"},
+        {"name":"APIs Design"}
+    ],
+    "technical":[
+        {"name":"Javascript"},
+        {"name":"Typescript"},
+        {"name":"ReactJs"},
+        {"name":"Node"},
+        {"name":"CSS"},
+        {"name":"HTML"},
+        {"name":"GraphQL"},
+        {"name":"Python"},
+        {"name":"Django"},
+        {"name":"Jest"},
+        {"name":"Git"},
+        {"name":"Cloud GCP"},
+        {"name":"Databases"},
+        {"name":"CI/CD"},
+        {"name":"Auth0"}
+    ]
+}
+

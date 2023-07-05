@@ -3,6 +3,8 @@ import Navbar from './components/Navbar';
 import AboutMe from './containers/AboutMe/AboutMe';
 import Header from './containers/Header/Header';
 import './App.css';
+import PracticeSkills from 'containers/Skills/PracticeSkills';
+import TechSkills from 'containers/Skills/TechSkills';
 
 const App = () => {
   return (
@@ -10,6 +12,8 @@ const App = () => {
         <Navbar/>
         <Header />
         <AboutMe />
+        <PracticeSkills />
+        <TechSkills />
     </div>
   )
 }

@@ -1,6 +1,6 @@
 .app__navbar {
-  /* position: fixed;
-  top: 0; */
+  position: fixed;
+  top: 0;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -28,7 +28,6 @@
   cursor: pointer;
   font-size: 20px;
   font-weight: bold;
-  /* color: var(--color-white) */
 }
 
 .app__navbar-links li:hover{

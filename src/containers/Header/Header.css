@@ -22,15 +22,15 @@
     font-size: 40px;
     padding-bottom: 51px; 
   }
-  
-.my-image__img{
-    border-radius:20%;
-}
 
 @media screen and (min-width: 2000px) {
     .app__header h1 {
         font-size: 180px;
         line-height: 210px;
+    }
+
+    .app__wrapper_img img {
+        width: 100%;
     }
 }
 
@@ -49,6 +49,11 @@
     .p__cormorant-header{
         font-size: 30px;
     }
+
+    .my-image__img{
+        width: 80%;
+        height: auto;
+    }
 }
 
 @media screen and (max-width: 450px) {
@@ -59,5 +64,9 @@
     .p__cormorant-header {
         padding-bottom: 10px;
         font-size: 23px;
+    }
+    .my-image__img{
+        width: 50%;
+        height: auto;
     }
 }
