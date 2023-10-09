@@ -96,7 +96,7 @@ a {
 
 @media screen and (max-width: 850px) {
   .section__padding {
-    padding: 4rem;
+    padding: 3rem 4rem;
   }
   .p__cormorant {
     font-size: 35px;
