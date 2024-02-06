@@ -1,28 +1,39 @@
 {
-    "practices":[
-        {"name": "TDD"},
-        {"name":"Testing"},
-        {"name":"Clean Code"},
-        {"name":"Refactoring"},
-        {"name":"POO"},
-        {"name":"APIs Design"}
-    ],
-    "technical":[
-        {"name":"Javascript"},
-        {"name":"Typescript"},
-        {"name":"ReactJs"},
-        {"name":"Node"},
-        {"name":"CSS"},
-        {"name":"HTML"},
-        {"name":"GraphQL"},
-        {"name":"Python"},
-        {"name":"Django"},
-        {"name":"Jest"},
-        {"name":"Git"},
-        {"name":"Cloud GCP"},
-        {"name":"Databases"},
-        {"name":"CI/CD"},
-        {"name":"Auth0"}
-    ]
+  "practices": [
+    { "name": "TDD" },
+    { "name": "Testing" },
+    { "name": "Clean Code" },
+    { "name": "Refactoring" },
+    { "name": "Agile" },
+    { "name": "Code Review" }
+  ],
+  "soft": [
+    { "name": "Leadership" },
+    { "name": "Feedback" },
+    { "name": "Team player" },
+    { "name": "Creative" },
+    { "name": "Facilitator" },
+    { "name": "Pairing" },
+    { "name": "Detail Oriented" }
+  ],
+  "technical": [
+    { "name": "Javascript" },
+    { "name": "Typescript" },
+    { "name": "ReactJs" },
+    { "name": "Redux" },
+    { "name": "Node" },
+    { "name": "CSS" },
+    { "name": "HTML" },
+    { "name": "GraphQL" },
+    { "name": "Rest" },
+    { "name": "Python" },
+    { "name": "Django" },
+    { "name": "Jest" },
+    { "name": "Git" },
+    { "name": "Cloud GCP" },
+    { "name": "SQL" },
+    { "name": "CI/CD" },
+    { "name": "Auth0" },
+    { "name": "OpenFace" }
+  ]
 }
-
