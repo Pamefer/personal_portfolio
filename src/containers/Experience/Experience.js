@@ -14,16 +14,22 @@ const Experience = () => {
       <div className='container_experience'>
         {experience.map((e, eNum) => (
           <div key={eNum}>
-            <p className='p__opensans_aboutme'><b><a target='_blank' rel="noreferrer" href={e.web}>{e.company}</a></b></p>
-            <p className='p__opensans_aboutme'>{e.date}</p>
-            <div className='titles_container'>
-              {e.titles.map((title, num) => (
-                <p className='p__opensans_aboutme_bold' style={{ fontWeight: '900' }} key={num}>{title}</p>
-              ))}
-            </div>
-            <p className='p__opensans_project_bold'>Project:</p>
+            <a className='block_experience' href={"a.com"}>
+              <p className='p__opensans_aboutme'><b><a target='_blank' rel="noreferrer" href={e.web}>{e.company}</a></b></p>
+              <p className='p__opensans_aboutme'>{e.date}</p>
+              <div className='titles_container'>
+                {e.titles.map((title, num) => (
+                  <p className='p__opensans_aboutme_bold other' style={{ fontWeight: '900' }} key={num}>{title}</p>
+                ))}
+              </div>
+            </a>
+
             <div className='product_container'>
-              <p className='p__opensans_aboutme_bold' style={{ fontWeight: '900' }} >{e.product.join(" / ")}</p>
+              <h3 className='p__opensans_project_bold'>Product:</h3>
+              {e.product.description.map((p) =>
+                <p className='p__opensans_aboutme_bold' style={{ fontWeight: '900' }} >{p}</p>
+
+              )}
             </div>
           </div>
         ))}

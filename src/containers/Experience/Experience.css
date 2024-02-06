@@ -6,13 +6,12 @@
   line-height: 25px;
   font-size: 18px;
 }
+
 .container_experience {
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  row-gap: 50px;
+  flex-direction: column;
+  row-gap: 40px;
+  margin-top: 100px;
 }
 .container_experience > .titles_container {
   flex: 1 1 100%; /*grow | shrink | basis */
@@ -33,11 +32,14 @@
   justify-content: center;
 }
 
-a:hover {
+.block_experience:hover {
   cursor: pointer;
   color: var(--color-rose);
 }
 
+.other {
+  color: var(--color-rose);
+}
 .p__opensans_project_bold {
   font-family: var(--font-alt);
   color: var(--color-rose);
