@@ -8,8 +8,14 @@
 }
 .container_experience {
   display: flex;
-  flex-direction: column;
-  row-gap: 40px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  row-gap: 50px;
+}
+.container_experience > .titles_container {
+  flex: 1 1 100%; /*grow | shrink | basis */
 }
 
 .titles_container {
