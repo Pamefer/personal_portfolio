@@ -10,12 +10,12 @@ import Experience from 'containers/Experience/Experience';
 const App = () => {
   return (
     <div>
-        <Navbar/>
-        <Header />
-        <AboutMe />
-        <PracticeSkills />
-        <TechSkills />
-        <Experience />
+      <Navbar />
+      <Header />
+      <AboutMe />
+      <Experience />
+      <PracticeSkills />
+      <TechSkills />
     </div>
   )
 }
