@@ -2,17 +2,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 
-:root{
-  --font-base:'Catamaran', serif;   
-  --font-alt:'Roboto', sans-serif;  
-  
-  --color-black:black;
-  --color-rose: #DE3163;
-  --color-white:white;
-  --color-4:'#00000';
+:root {
+  --font-base: "Catamaran", serif;
+  --font-alt: "Roboto", sans-serif;
+
+  --color-black: black;
+  --color-rose: #de3163;
+  --color-light-rose: #ce7fba;
+  --color-white: white;
+  --color-4: "#00000";
 }
 
-*{
+* {
   box-sizing: border-box;
   padding: 0;
   margin: 0;

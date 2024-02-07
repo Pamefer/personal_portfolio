@@ -29,15 +29,19 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-top: 10px;
 }
 
-.block_experience:hover {
-  cursor: pointer;
-  color: var(--color-rose);
+.list_description {
+  text-align: start;
 }
 
 .other {
   color: var(--color-rose);
+}
+
+.light_rose {
+  color: var(--color-light-rose);
 }
 .p__opensans_project_bold {
   font-family: var(--font-alt);
