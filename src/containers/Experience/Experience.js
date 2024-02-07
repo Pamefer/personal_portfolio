@@ -18,24 +18,34 @@ const Experience = () => {
               <p className='p__opensans_aboutme'><b><a target='_blank' rel="noreferrer" href={e.web}>{e.company}</a></b></p>
               <p className='p__opensans_aboutme'>{e.date}</p>
               <div className='titles_container'>
-                {e.titles.map((title, num) => (
-                  <p className='p__opensans_aboutme_bold other' style={{ fontWeight: '900' }} key={num}>{title}</p>
-                ))}
-              </div>
+                {e.titles.map((title, num) =>
+                  (<p className='p__opensans_aboutme_bold other' style={{ fontWeight: '900' }} key={num}>{title}</p>)
+                )}
+              </div >
+
             </a>
 
             <div className='product_container'>
-              <h3 className='p__opensans_project_bold'>Product:</h3>
-              {e.product.description.map((p) =>
-                <p className='p__opensans_aboutme_bold' style={{ fontWeight: '900' }} >{p}</p>
 
-              )}
+
+
+              {e.product.flatMap((p, i) =>
+              (<><p key={`product_${i}_name`} className='p__opensans_aboutme_bold' style={{ fontWeight: '900' }}>
+                {p.name}
+              </p>
+                {p.description.map((d, j) => (
+                  <p key={`product_${i}_description_${j}`} className='p__opensans_aboutme_bold' style={{ fontWeight: '900' }}>
+                    {d}
+                  </p>
+                ))}
+
+                <br /></>))}
             </div>
           </div>
         ))}
       </div>
 
-    </div>
+    </div >
   )
 }
 
