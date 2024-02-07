@@ -2,17 +2,18 @@ const experienceData = [
   {
     company: 'Pie for Providers',
     web: 'https://pieforproviders.com/',
-    date: 'August 2023 – Actual',
-    titles: ['Technitian'],
+    date: 'August 2023 – Present',
+    titles: ['Technician'],
     product: [
       {
-        name: "Pie for providers",
-        web: "https://pieforproviders.com/",
+        name: 'Pie for Providers',
+        web: 'https://pieforproviders.com/',
         description: [
-          "Wrote python scripts to automate manual tasks like formatting, reducing 95% time",
+          'Wrote Python scripts to automate manual tasks like formatting, reducing 95% time',
         ],
-        techStack: ["Python", "Numpy", "Pandas"]
-      }]
+        techStack: ['Python', 'Numpy', 'Pandas'],
+      },
+    ],
   },
   {
     company: 'Senirop',
@@ -21,15 +22,16 @@ const experienceData = [
     titles: ['Software Engineer', 'Frontend Developer'],
     product: [
       {
-        name: "Tapinto Digital Newspaper",
-        web: "tapinto.com",
+        name: 'Tapinto Digital Newspaper',
+        web: 'https://tapinto.com',
         description: [
-          "Digital newspaper for New Jersey cities",
-          "Led the development for responsive, faster, and scalable Milestones and Directories webpages of the newslatter",
-          "Redisgned old site, built new one!"
+          'Digital newspaper for New Jersey cities',
+          'Led the development for responsive, faster, and scalable Milestones and Directories webpages of the newsletter',
+          'Redesigned old site, built a new one!',
         ],
-        techStack: ["React", "Javascript", "Ruby and rails"]
-      }]
+        techStack: ['React', 'JavaScript', 'Ruby and Rails'],
+      },
+    ],
   },
   {
     company: 'Thoughtworks',
