@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import './Experience.css';
 import experienceData from 'constants/data/projects';
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 const Experience = () => {
   const [experience, setExperience] = useState([]);
@@ -23,7 +24,10 @@ const Experience = () => {
         {experience.map((e, eNum) => (
           <div key={eNum}>
             <div className='block_experience' onClick={() => handleShowBlock(eNum)}>
-              <b><p className='p__opensans_aboutme other'><b><a target='_blank' rel="noreferrer" href={e.web}>{e.company}</a></b></p></b>
+              <div className='company'>
+                <b><p className='p__opensans_aboutme other'>{e.company}</p></b>
+                <a target='_blank' rel="noreferrer" href={e.web}><FaExternalLinkAlt color='#fff' fontSize={17} /></a>
+              </div>
               <p className='p__opensans_aboutme'>{e.date}</p>
               <div className='titles_container'>
                 {e.titles.map((title, num) =>
@@ -35,14 +39,19 @@ const Experience = () => {
 
             {showBlock.state && showBlock.index === eNum && (
               <div className='product_container'>
-                {e.product.flatMap((p, i) =>
-                (<><p key={`product_${i}_name`} className='p__opensans_aboutme_bold light_rose' style={{ fontWeight: '900' }}>
-                  {p.name}
-                </p>
+                {e.product.flatMap((item, i) =>
+                (<>
+                  <div className='project'>
+                    <p key={`product_${i}_name`} className='p__opensans_aboutme_bold light_rose' style={{ fontWeight: '900' }}>
+                      {item.name}
+                    </p>
+                    <a target='_blank' rel="noreferrer" href={item.web}><FaExternalLinkAlt color='#fff' fontSize={17} /></a>
+
+                  </div>
                   <div className='list_description'>
-                    {p.description.map((d, j) => (
+                    {item.description.map((value_description, j) => (
                       <p key={`product_${i}_description_${j}`} className='p__opensans_aboutme_bold' style={{ fontWeight: '900' }}>
-                        {d}
+                        {value_description}
                       </p>
                     ))}
                   </div>

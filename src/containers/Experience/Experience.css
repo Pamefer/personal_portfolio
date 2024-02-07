@@ -43,6 +43,29 @@
 .light_rose {
   color: var(--color-light-rose);
 }
+
+.company,
+.project {
+  display: flex;
+  column-gap: 15px;
+  justify-content: center;
+}
+
+.company:hover .fa-external-link-alt,
+.company:hover svg {
+  fill: var(--color-rose);
+  cursor: pointer;
+}
+
+.project:hover .fa-external-link-alt,
+.project:hover svg {
+  fill: var(--color-light-rose);
+  cursor: pointer;
+}
+
+.block_experience {
+  cursor: pointer;
+}
 .p__opensans_project_bold {
   font-family: var(--font-alt);
   color: var(--color-rose);

@@ -23,7 +23,7 @@ const experienceData = [
     product: [
       {
         name: 'Tapinto Digital Newspaper',
-        web: 'https://tapinto.com',
+        web: 'https://www.tapinto.net/madison/directories',
         description: [
           'Digital newspaper for New Jersey cities',
           'Led the development for responsive, faster, and scalable Milestones and Directories webpages of the newsletter',
@@ -41,7 +41,7 @@ const experienceData = [
     product: [
       {
         name: "Beauty Counter, Commissions",
-        web: "beautycounter.com",
+        web: "https://www.beautycounter.com/en-us/?redirect=locale",
         description: [
           "Cosmetic Retail Company",
           "Involved on the Commisions Team for manteinance and creating new features",
@@ -53,7 +53,7 @@ const experienceData = [
       },
       {
         name: "A Place For Mom, Callcenter",
-        web: "aplaceformom.com",
+        web: "https://www.aplaceformom.com/",
         description: [
           "Senior Care Referral Company",
           "Involved on the migration for a new dynamic and modular callcenter app improving 50% of satisfaction",
@@ -66,7 +66,7 @@ const experienceData = [
       },
       {
         name: "Latam, Login",
-        web: "latam.com",
+        web: "https://accounts.latamairlines.com/login?state=hKFo2SAxcWEzbGV4bmZ6cFpMYjJwaEpzRlV6YWx6cGh3MmVGWaFupWxvZ2luo3RpZNkgYkNrV2hwWDZ4OTU1WVlHd19KTmJKMmJEdU9SU3h4Q0mjY2lk2SA4V1M3MFFoNllyTGRSaDM3bmpSOU9tMHFoUFYxTGVBNg&client=8WS70Qh6YrLdRh37njR9Om0qhPV1LeA6&protocol=oauth2&scope=openid%20email%20profile&lang=en&country=us&originalCountry=us&nonce=303bd1f6d92bdd1915605ea44888947e&response_type=code&redirect_uri=https%3A%2F%2Fwww.latamairlines.com%2Fcallback",
         description: [
           "Latin America Airline",
           "Involved on the authentication process team: login, registration, password update.",
